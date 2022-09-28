@@ -1,0 +1,8 @@
+version: "3"
+services:
+  ezorange:
+    build: .
+    ports:
+      - "9123:9123"
+    expose:
+      - "9123"

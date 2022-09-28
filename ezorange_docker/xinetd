@@ -1,0 +1,11 @@
+service ezorange
+{
+    disable = no
+    type = UNLISTED
+    socket_type = stream
+    protocol = tcp
+    port = 9123
+    wait = no
+    user = orangeworld
+    server = /home/orangeworld/run.sh
+}
